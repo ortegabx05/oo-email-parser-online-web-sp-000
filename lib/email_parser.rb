@@ -10,6 +10,6 @@ class EmailAddressParser
     emails.split.collect do |address|
       address.split(',') 
     end
-   address.flatten.uniq 
+   flatten.uniq 
   end 
 end 
